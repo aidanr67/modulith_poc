@@ -1,7 +1,7 @@
 ## About
 This is very simple, very small project I put together to POC some east/west communication within a modulith environment. 
 Basically it's a test project to test different solutions to that problem.
-Additionally, I've been using it to play MapStruct to map between entities and JSON request/response objects.
+Additionally, I've been using it to play around with MapStruct to map between entities and JSON request/response objects.
 
 It is a REST API, using JSONAPI spec, for managing people and their pets. It is built using Spring Boot and Spring Data JPA.
 
