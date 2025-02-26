@@ -5,12 +5,14 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.example.project.people.jsonapi.attributes.PersonAttributes;
 import com.github.jasminb.jsonapi.annotations.Id;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.List;
 
 @Setter
 @Getter
+@NoArgsConstructor
 public class PersonRequest {
     @Id
     private Long id;

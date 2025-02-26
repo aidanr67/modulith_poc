@@ -10,6 +10,8 @@ import com.example.project.people.jsonapi.requests.PersonRequest;
 import com.example.project.people.jsonapi.responses.PersonResponse;
 import com.example.project.people.repositories.PersonRepository;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
@@ -20,6 +22,8 @@ import java.util.concurrent.Executors;
 import java.util.logging.Logger;
 
 @Service
+@AllArgsConstructor
+@NoArgsConstructor
 public class PersonService {
 
     @Autowired

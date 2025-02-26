@@ -5,6 +5,9 @@ Additionally, I've been using it to play around with MapStruct to map between en
 
 It is a REST API, using JSONAPI spec, for managing people and their pets. It is built using Spring Boot and Spring Data JPA.
 
+As this was created as a POC it was not built using TDD, the approach I would take to write production ready code. I have added some basic test coverage.  
+
+
 ## Modules
 - **audit**: This is an audit module which logs requests to resources to the database.
 - **people**: This is a module containing 2 basic resources (Person and Pet) and all the necessary logic to manage them.
